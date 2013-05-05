@@ -8,3 +8,5 @@ version          "0.1.0"
 
 depends 'server-essentials'
 depends 'minitest-handler'
+depends 'golang'
+depends 'nodejs'

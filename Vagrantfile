@@ -14,6 +14,7 @@ Vagrant.configure("2") do |config|
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
   config.vm.box_url = "http://static.aldoborrero.com/vagrant/quantal64.box"
+  # config.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
 
   # Assign this VM to a host-only network IP, allowing you to access it
   # via the IP. Host-only networks can talk to the host machine as well as
@@ -67,6 +68,14 @@ Vagrant.configure("2") do |config|
   # An array of symbols representing groups of cookbook described in the Vagrantfile
   # to skip installing and copying to Vagrant's shelf.
   # config.berkshelf.except = []
+
+  # config.ssh.private_key_path = '~/.ssh/id_rsa'
+  # config.vm.box = 'digital_ocean'
+  config.vm.provider :digital_ocean do |provider|
+    provider.image = "Ubuntu 12.10 x64 Server"
+    provider.client_id = ENV['DIGITAL_OCEAN_CLIENT_ID']
+    provider.api_key = ENV['DIGITAL_OCEAN_API_KEY']
+  end
 
   config.vm.provision :chef_solo do |chef|
     chef.json = {

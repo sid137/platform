@@ -8,3 +8,6 @@
 
 
 include_recipe "server-essentials"
+include_recipe "golang"
+include_recipe "nodejs"
+include_recipe "nodejs::npm"
