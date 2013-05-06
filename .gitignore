@@ -12,4 +12,7 @@ Berksfile.lock
 Gemfile.lock
 bin/*
 .bundle/*
+data_bags
+roles
+site-cookbooks
 

@@ -8,13 +8,7 @@
 
 
 include_recipe "server-essentials"
-
-include_recipe "rbenv::default"
-include_recipe "rbenv::ruby_build"
-rbenv_ruby '2.0.0-p0' do
-  global true
-end
-
+include_recipy "platform::ruby"
 include_recipe "erlang"
 include_recipe "golang"
 include_recipe "nodejs"
