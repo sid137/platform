@@ -8,7 +8,7 @@
 
 
 include_recipe "server-essentials"
-include_recipy "platform::ruby"
+include_recipe "platform::ruby"
 include_recipe "erlang"
 include_recipe "golang"
 include_recipe "nodejs"
