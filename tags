@@ -4,4 +4,302 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+AppendIfNoLine	cookbooks/line/libraries/provider_append_if_no_line.rb	/^    class AppendIfNoLine < Chef::Provider$/;"	c	class:Chef.Provider
+AppendIfNoLine	cookbooks/line/libraries/resource_append_if_no_line.rb	/^    class AppendIfNoLine < Chef::Resource$/;"	c	class:Chef.Resource
+Base	cookbooks/windows/libraries/feature_base.rb	/^      module Base$/;"	m	class:Chef.Provider.WindowsFeature
+Chef	cookbooks/line/libraries/provider_append_if_no_line.rb	/^class Chef$/;"	c
+Chef	cookbooks/line/libraries/provider_replace_or_add.rb	/^class Chef$/;"	c
+Chef	cookbooks/line/libraries/provider_uncomment_lines_matching.rb	/^class Chef$/;"	c
+Chef	cookbooks/line/libraries/resource_append_if_no_line.rb	/^class Chef$/;"	c
+Chef	cookbooks/line/libraries/resource_replace_or_add.rb	/^class Chef$/;"	c
+Chef	cookbooks/line/libraries/resource_uncomment_lines_matching.rb	/^class Chef$/;"	c
+Chef	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^class Chef$/;"	c
+Chef	cookbooks/rbenv/libraries/chef_mixin_ruby_build.rb	/^class Chef$/;"	c
+Chef	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^class Chef$/;"	c
+Chef	cookbooks/rbenv/libraries/recipe_ext.rb	/^class Chef$/;"	c
+Chef	cookbooks/rbenv/libraries/resource_ext.rb	/^class Chef$/;"	c
+Chef	cookbooks/ruby_build/libraries/ruby_build_recipe_helpers.rb	/^class Chef$/;"	c
+Chef	cookbooks/ruby_build/recipes/default.rb	/^class Chef::Recipe$/;"	c
+Chef	cookbooks/runit/libraries/provider_runit_service.rb	/^class Chef$/;"	c
+Chef	cookbooks/runit/libraries/resource_runit_service.rb	/^class Chef$/;"	c
+Chef	cookbooks/windows/libraries/feature_base.rb	/^class Chef$/;"	c
+Chef	cookbooks/windows/libraries/windows_privileged.rb	/^class Chef$/;"	c
+Erlang	cookbooks/erlang/files/default/tests/minitest/support/helpers.rb	/^  module Erlang$/;"	m	class:Helpers
+Golang	cookbooks/golang/test/kitchen/cookbooks/golang_test/files/default/tests/minitest/support/helpers.rb	/^  module Golang$/;"	m	class:Helpers
+Helper	cookbooks/windows/libraries/helper.rb	/^  module Helper$/;"	m	class:Windows
+Helpers	cookbooks/erlang/files/default/tests/minitest/support/helpers.rb	/^module Helpers$/;"	m
+Helpers	cookbooks/golang/test/kitchen/cookbooks/golang_test/files/default/tests/minitest/support/helpers.rb	/^module Helpers$/;"	m
+Helpers	cookbooks/platform/files/default/tests/minitest/support/helpers.rb	/^module Helpers$/;"	m
+Helpers	cookbooks/yum/files/default/tests/minitest/support/helpers.rb	/^module Helpers$/;"	m
 Helpers	files/default/tests/minitest/support/helpers.rb	/^module Helpers$/;"	m
+Mixin	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^  module Mixin$/;"	m	class:Chef
+Mixin	cookbooks/rbenv/libraries/chef_mixin_ruby_build.rb	/^  module Mixin$/;"	m	class:Chef
+Mixin	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^  module Mixin$/;"	m	class:Chef
+Mixin	cookbooks/rbenv/libraries/recipe_ext.rb	/^  module Mixin$/;"	m	class:Chef
+Mixin	cookbooks/rbenv/libraries/resource_ext.rb	/^  module Mixin$/;"	m	class:Chef
+Package	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^    class Package$/;"	c	class:Chef.Provider
+Provider	cookbooks/line/libraries/provider_append_if_no_line.rb	/^  class Provider$/;"	c	class:Chef
+Provider	cookbooks/line/libraries/provider_replace_or_add.rb	/^  class Provider$/;"	c	class:Chef
+Provider	cookbooks/line/libraries/provider_uncomment_lines_matching.rb	/^  class Provider$/;"	c	class:Chef
+Provider	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^  class Provider$/;"	c	class:Chef
+Provider	cookbooks/runit/libraries/provider_runit_service.rb	/^  class Provider$/;"	c	class:Chef
+Provider	cookbooks/windows/libraries/feature_base.rb	/^  class Provider$/;"	c	class:Chef
+Rbenv	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^    module Rbenv$/;"	m	class:Chef.Mixin
+Rbenv	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^    module Rbenv$/;"	m	class:Chef.Mixin
+Rbenv	cookbooks/rbenv/libraries/recipe_ext.rb	/^    module Rbenv$/;"	m	class:Chef.Mixin
+Rbenv	cookbooks/rbenv/libraries/recipe_ext.rb	/^  module Rbenv$/;"	m	class:Chef
+Rbenv	cookbooks/rbenv/libraries/resource_ext.rb	/^    module Rbenv$/;"	m	class:Chef.Mixin
+Rbenv	cookbooks/rbenv/libraries/resource_ext.rb	/^  module Rbenv$/;"	m	class:Chef
+RbenvGemEnvironment	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^        class RbenvGemEnvironment < AlternateGemEnvironment$/;"	c	class:Chef.Provider.Package.RbenvRubygems
+RbenvRubygems	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^      class RbenvRubygems < Chef::Provider::Package::Rubygems$/;"	c	class:Chef.Provider.Package
+RecipeExt	cookbooks/rbenv/libraries/recipe_ext.rb	/^    module RecipeExt$/;"	m	class:Chef.Rbenv
+RecipeHelpers	cookbooks/ruby_build/libraries/ruby_build_recipe_helpers.rb	/^    module RecipeHelpers$/;"	m	class:Chef.RubyBuild
+Registry	cookbooks/windows/libraries/registry_helper.rb	/^module Registry$/;"	m
+RegistryHelper	cookbooks/windows/libraries/registry_helper.rb	/^  module RegistryHelper$/;"	m	class:Windows
+ReplaceOrAdd	cookbooks/line/libraries/provider_replace_or_add.rb	/^    class ReplaceOrAdd < Chef::Provider$/;"	c	class:Chef.Provider
+ReplaceOrAdd	cookbooks/line/libraries/resource_replace_or_add.rb	/^    class ReplaceOrAdd < Chef::Resource$/;"	c	class:Chef.Resource
+Resource	cookbooks/line/libraries/resource_append_if_no_line.rb	/^  class Resource$/;"	c	class:Chef
+Resource	cookbooks/line/libraries/resource_replace_or_add.rb	/^  class Resource$/;"	c	class:Chef
+Resource	cookbooks/line/libraries/resource_uncomment_lines_matching.rb	/^  class Resource$/;"	c	class:Chef
+Resource	cookbooks/runit/libraries/resource_runit_service.rb	/^  class Resource$/;"	c	class:Chef
+ResourceExt	cookbooks/rbenv/libraries/resource_ext.rb	/^    module ResourceExt$/;"	m	class:Chef.Rbenv
+RubyBuild	cookbooks/rbenv/libraries/chef_mixin_ruby_build.rb	/^    module RubyBuild$/;"	m	class:Chef.Mixin
+RubyBuild	cookbooks/rbenv/libraries/resource_ext.rb	/^    module RubyBuild$/;"	m	class:Chef.Mixin
+RubyBuild	cookbooks/ruby_build/libraries/ruby_build_recipe_helpers.rb	/^  module RubyBuild$/;"	m	class:Chef
+Runit	cookbooks/runit/libraries/provider_runit_service.rb	/^      class Runit < Chef::Provider::Service$/;"	c	class:Chef.Provider.Service
+RunitService	cookbooks/runit/libraries/resource_runit_service.rb	/^    class RunitService < Chef::Resource::Service$/;"	c	class:Chef.Resource
+Service	cookbooks/runit/libraries/provider_runit_service.rb	/^    class Service$/;"	c	class:Chef.Provider
+UncommentLinesMataching	cookbooks/line/libraries/provider_uncomment_lines_matching.rb	/^    class UncommentLinesMataching < Chef::Provider$/;"	c	class:Chef.Provider
+UncommentLinesMatching	cookbooks/line/libraries/resource_uncomment_lines_matching.rb	/^    class UncommentLinesMatching < Chef::Resource$/;"	c	class:Chef.Resource
+Version	cookbooks/windows/libraries/version.rb	/^  class Version$/;"	c	class:Windows
+Windows	cookbooks/windows/libraries/helper.rb	/^module Windows$/;"	m
+Windows	cookbooks/windows/libraries/registry_helper.rb	/^module Windows$/;"	m
+Windows	cookbooks/windows/libraries/version.rb	/^module Windows$/;"	m
+WindowsFeature	cookbooks/windows/libraries/feature_base.rb	/^    class WindowsFeature$/;"	c	class:Chef.Provider
+WindowsPrivileged	cookbooks/windows/libraries/windows_privileged.rb	/^  class WindowsPrivileged$/;"	c	class:Chef
+WindowsRebootHandler	cookbooks/windows/files/default/handlers/windows_reboot_handler.rb	/^class WindowsRebootHandler < Chef::Handler$/;"	c
+YumTest	cookbooks/yum/files/default/tests/minitest/support/helpers.rb	/^  module YumTest$/;"	m	class:Helpers
+action_create	cookbooks/windows/providers/shortcut.rb	/^def action_create$/;"	f
+action_edit	cookbooks/line/libraries/provider_append_if_no_line.rb	/^      def action_edit$/;"	f	class:Chef.Provider.AppendIfNoLine
+action_edit	cookbooks/line/libraries/provider_replace_or_add.rb	/^      def action_edit$/;"	f	class:Chef.Provider.ReplaceOrAdd
+action_enable	cookbooks/runit/libraries/provider_runit_service.rb	/^        def action_enable$/;"	f	class:Chef.Provider.Service.Runit
+action_install	cookbooks/windows/libraries/feature_base.rb	/^        def action_install$/;"	f	class:Chef.Provider.WindowsFeature.Base
+action_remove	cookbooks/windows/libraries/feature_base.rb	/^        def action_remove$/;"	f	class:Chef.Provider.WindowsFeature.Base
+action_uncomment	cookbooks/line/libraries/provider_uncomment_lines_matching.rb	/^      def action_uncomment$/;"	f	class:Chef.Provider.UncommentLinesMataching
+action_usr1	cookbooks/runit/libraries/provider_runit_service.rb	/^        def action_usr1$/;"	f
+action_usr2	cookbooks/runit/libraries/provider_runit_service.rb	/^        def action_usr2$/;"	f
+adjust_privilege	cookbooks/windows/libraries/windows_privileged.rb	/^    def adjust_privilege(token, priv, attr=0)$/;"	f	class:Chef.WindowsPrivileged
+automatic_managed?	cookbooks/windows/providers/pagefile.rb	/^def automatic_managed?$/;"	f
+build_pref	cookbooks/apt/providers/preference.rb	/^def build_pref(package_name, pin, pin_priority)$/;"	f
+build_repo	cookbooks/apt/providers/repository.rb	/^def build_repo(uri, distribution, components, arch, add_deb_src)$/;"	f
+build_upgrade_strategy	cookbooks/ruby_build/libraries/ruby_build_recipe_helpers.rb	/^      def build_upgrade_strategy(strategy)$/;"	f	class:Chef.RubyBuild.RecipeHelpers
+cached_file	cookbooks/windows/libraries/helper.rb	/^    def cached_file(source, checksum=nil, windows_path=true)$/;"	f	class:Windows.Helper
+candidate_version	cookbooks/windows/providers/package.rb	/^def candidate_version$/;"	f
+check_for_errors	cookbooks/windows/providers/pagefile.rb	/^def check_for_errors(stderr)$/;"	f
+collect_args	cookbooks/chef_handler/providers/default.rb	/^def collect_args(resource_args = [])$/;"	f
+compare_shortcut	cookbooks/windows/providers/shortcut.rb	/^def compare_shortcut$/;"	f
+configure_service	cookbooks/runit/libraries/provider_runit_service.rb	/^        def configure_service$/;"	f	class:Chef.Provider
+control	cookbooks/runit/libraries/resource_runit_service.rb	/^      def control(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+control_dir	cookbooks/runit/libraries/provider_runit_service.rb	/^        def control_dir$/;"	f
+control_signal_files	cookbooks/runit/libraries/provider_runit_service.rb	/^        def control_signal_files$/;"	f
+control_template_names	cookbooks/runit/libraries/resource_runit_service.rb	/^      def control_template_names(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+cookbook	cookbooks/runit/libraries/resource_runit_service.rb	/^      def cookbook(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+create	cookbooks/windows/providers/pagefile.rb	/^def create(pagefile)$/;"	f
+create_key	cookbooks/windows/libraries/registry_helper.rb	/^    def create_key(path)$/;"	f	class:Windows.RegistryHelper
+create_printer	cookbooks/windows/providers/printer.rb	/^def create_printer$/;"	f
+create_printer_port	cookbooks/windows/providers/printer_port.rb	/^def create_printer_port$/;"	f
+current_installed_version	cookbooks/windows/providers/package.rb	/^def current_installed_version$/;"	f
+default_log_dir	cookbooks/runit/libraries/provider_runit_service.rb	/^        def default_log_dir$/;"	f
+default_logger	cookbooks/runit/libraries/resource_runit_service.rb	/^      def default_logger(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+default_logger_content	cookbooks/runit/libraries/provider_runit_service.rb	/^        def default_logger_content$/;"	f
+delete	cookbooks/windows/providers/pagefile.rb	/^def delete(pagefile)$/;"	f
+delete_printer	cookbooks/windows/providers/printer.rb	/^def delete_printer$/;"	f
+delete_printer_port	cookbooks/windows/providers/printer_port.rb	/^def delete_printer_port$/;"	f
+delete_value	cookbooks/windows/libraries/registry_helper.rb	/^    def delete_value(path,values)$/;"	f	class:Windows.RegistryHelper
+desired_ruby_build_version?	cookbooks/rbenv/libraries/resource_ext.rb	/^      def desired_ruby_build_version?$/;"	f	class:Chef.Rbenv.ResourceExt
+disable_service	cookbooks/runit/libraries/provider_runit_service.rb	/^        def disable_service$/;"	f	class:Chef
+dism	cookbooks/windows/providers/feature_dism.rb	/^def dism$/;"	f
+enable_service	cookbooks/runit/libraries/provider_runit_service.rb	/^        def enable_service$/;"	f	class:Chef.Provider
+enabled?	cookbooks/chef_handler/providers/default.rb	/^def enabled?(type)$/;"	f
+enabled?	cookbooks/runit/libraries/provider_runit_service.rb	/^        def enabled?$/;"	f
+ensure_hive_unloaded	cookbooks/windows/libraries/registry_helper.rb	/^    def ensure_hive_unloaded(hive_loaded=false)$/;"	f	class:Windows.RegistryHelper
+ensure_rubyzip_gem_installed	cookbooks/windows/providers/zipfile.rb	/^def ensure_rubyzip_gem_installed$/;"	f
+env	cookbooks/runit/libraries/resource_runit_service.rb	/^      def env(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+env_dir	cookbooks/runit/libraries/provider_runit_service.rb	/^        def env_dir$/;"	f
+env_files	cookbooks/runit/libraries/provider_runit_service.rb	/^        def env_files$/;"	f
+escape_string	cookbooks/line/libraries/default.rb	/^def escape_string(string)$/;"	f
+escape_string	cookbooks/line/libraries/provider_append_if_no_line.rb	/^      def escape_string(string)$/;"	f	class:Chef.Provider.AppendIfNoLine
+escape_string	cookbooks/line/libraries/provider_uncomment_lines_matching.rb	/^      def escape_string(string)$/;"	f	class:Chef.Provider.UncommentLinesMataching
+exists?	cookbooks/windows/providers/pagefile.rb	/^def exists?(pagefile)$/;"	f
+expand_options	cookbooks/windows/providers/package.rb	/^def expand_options(options)$/;"	f
+extract_gpg_ids_from_cmd	cookbooks/apt/providers/repository.rb	/^def extract_gpg_ids_from_cmd(cmd)$/;"	f
+extract_installed_packages_from_key	cookbooks/windows/providers/package.rb	/^def extract_installed_packages_from_key(hkey = ::Win32::Registry::HKEY_LOCAL_MACHINE, desired = ::Win32::Registry::Constants::KEY_READ)$/;"	f
+finish	cookbooks/runit/libraries/resource_runit_service.rb	/^      def finish(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+finish_script	cookbooks/runit/libraries/provider_runit_service.rb	/^        def finish_script$/;"	f
+finish_script_template_name	cookbooks/runit/libraries/resource_runit_service.rb	/^      def finish_script_template_name(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+gem_binary_path_for	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def gem_binary_path_for(version)$/;"	f	class:Chef.Mixin.Rbenv
+get_hive	cookbooks/windows/libraries/registry_helper.rb	/^    def get_hive(path)$/;"	f	class:Windows.RegistryHelper
+get_hive_name	cookbooks/windows/libraries/registry_helper.rb	/^    def get_hive_name(path)$/;"	f	class:Windows.RegistryHelper
+get_os_info	cookbooks/windows/libraries/version.rb	/^    def get_os_info$/;"	f	class:Windows
+get_reg_path_info	cookbooks/windows/libraries/registry_helper.rb	/^    def get_reg_path_info(path)$/;"	f	class:Windows.RegistryHelper
+get_setting_id	cookbooks/windows/providers/pagefile.rb	/^def get_setting_id(pagefile)$/;"	f
+get_user_hive_location	cookbooks/windows/libraries/registry_helper.rb	/^    def get_user_hive_location(sid)$/;"	f	class:Windows.RegistryHelper
+get_value	cookbooks/windows/libraries/registry_helper.rb	/^    def get_value(path,value)$/;"	f	class:Windows.RegistryHelper
+get_values	cookbooks/windows/libraries/registry_helper.rb	/^    def get_values(path)$/;"	f	class:Windows.RegistryHelper
+group	cookbooks/runit/libraries/resource_runit_service.rb	/^      def group(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+hive_loaded?	cookbooks/windows/libraries/registry_helper.rb	/^    def hive_loaded?(path)$/;"	f	class:Windows.RegistryHelper
+initialize	cookbooks/apt/resources/preference.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/apt/resources/repository.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/chef_handler/resources/default.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/dmg/resources/package.rb	/^def initialize(name, run_context=nil)$/;"	f
+initialize	cookbooks/line/libraries/resource_append_if_no_line.rb	/^      def initialize(name, run_context=nil)$/;"	f	class:Chef.Resource.AppendIfNoLine
+initialize	cookbooks/line/libraries/resource_replace_or_add.rb	/^      def initialize(name, run_context=nil)$/;"	f	class:Chef.Resource.ReplaceOrAdd
+initialize	cookbooks/line/libraries/resource_uncomment_lines_matching.rb	/^      def initialize(name, run_context=nil)$/;"	f	class:Chef.Resource.UncommentLinesMatching
+initialize	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^          def initialize(gem_binary_path, ruby_version)$/;"	f	class:Chef.Provider.Package.RbenvRubygems.RbenvGemEnvironment
+initialize	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^        def initialize(new_resource, run_context = nil)$/;"	f	class:Chef.Provider.Package.RbenvRubygems
+initialize	cookbooks/rbenv/resources/gem.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/rbenv/resources/ruby.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/ruby_build/resources/ruby.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/runit/libraries/provider_runit_service.rb	/^        def initialize(*args)$/;"	f	class:Chef.Provider.Service.Runit
+initialize	cookbooks/runit/libraries/resource_runit_service.rb	/^      def initialize(name, run_context=nil)$/;"	f	class:Chef.Resource.RunitService
+initialize	cookbooks/windows/files/default/handlers/windows_reboot_handler.rb	/^  def initialize(allow_pending_reboots = true, timeout = 60, reason = "Opscode Chef initiated reboot")$/;"	f	class:WindowsRebootHandler
+initialize	cookbooks/windows/libraries/version.rb	/^    def initialize$/;"	f	class:Windows.Version
+initialize	cookbooks/windows/resources/auto_run.rb	/^def initialize(name,run_context=nil)$/;"	f
+initialize	cookbooks/windows/resources/batch.rb	/^def initialize(name, run_context=nil)$/;"	f
+initialize	cookbooks/windows/resources/feature.rb	/^def initialize(name, run_context=nil)$/;"	f
+initialize	cookbooks/windows/resources/package.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/windows/resources/path.rb	/^def initialize(name,run_context=nil)$/;"	f
+initialize	cookbooks/windows/resources/reboot.rb	/^def initialize(name,run_context=nil)$/;"	f
+initialize	cookbooks/windows/resources/registry.rb	/^def initialize(name, run_context=nil)$/;"	f
+initialize	cookbooks/windows/resources/shortcut.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/windows/resources/task.rb	/^def initialize(name, run_context=nil)$/;"	f
+initialize	cookbooks/windows/resources/zipfile.rb	/^def initialize(name, run_context=nil)$/;"	f
+initialize	cookbooks/yum/resources/key.rb	/^def initialize(*args)$/;"	f
+initialize	cookbooks/yum/resources/repository.rb	/^def initialize(*args)$/;"	f
+install_command_template	cookbooks/windows/providers/package.rb	/^def install_command_template$/;"	f
+install_feature	cookbooks/windows/libraries/feature_base.rb	/^        def install_feature(name)$/;"	f	class:Chef.Provider.WindowsFeature.Base
+install_feature	cookbooks/windows/providers/feature_dism.rb	/^def install_feature(name)$/;"	f
+install_feature	cookbooks/windows/providers/feature_servermanagercmd.rb	/^def install_feature(name)$/;"	f
+install_key_from_keyserver	cookbooks/apt/providers/repository.rb	/^def install_key_from_keyserver(key, keyserver)$/;"	f
+install_key_from_uri	cookbooks/apt/providers/repository.rb	/^def install_key_from_uri(uri)$/;"	f	class:extract_gpg_ids_from_cmd
+install_package	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^        def install_package(name, version)$/;"	f	class:Chef.Provider.Package.RbenvRubygems
+install_package	cookbooks/windows/providers/package.rb	/^def install_package(name,version)$/;"	f
+install_ruby_dependencies	cookbooks/ruby_build/providers/ruby.rb	/^def install_ruby_dependencies$/;"	f
+install_via_gem_command	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^        def install_via_gem_command(name, version)$/;"	f	class:Chef.Provider.Package.RbenvRubygems
+installed?	cookbooks/dmg/providers/package.rb	/^def installed?$/;"	f
+installed?	cookbooks/windows/libraries/feature_base.rb	/^        def installed?$/;"	f	class:Chef.Provider.WindowsFeature.Base
+installed?	cookbooks/windows/providers/feature_dism.rb	/^def installed?$/;"	f
+installed?	cookbooks/windows/providers/feature_servermanagercmd.rb	/^def installed?$/;"	f
+installed_packages	cookbooks/windows/providers/package.rb	/^def installed_packages$/;"	f
+installer_type	cookbooks/windows/providers/package.rb	/^def installer_type$/;"	f
+is_user_hive?	cookbooks/windows/libraries/registry_helper.rb	/^    def is_user_hive?(hive)$/;"	f	class:Windows.RegistryHelper
+key_exists?	cookbooks/windows/libraries/registry_helper.rb	/^    def key_exists?(path, load_hive = false)$/;"	f	class:Windows.RegistryHelper
+klass	cookbooks/chef_handler/providers/default.rb	/^def klass$/;"	f
+line	cookbooks/line/libraries/resource_append_if_no_line.rb	/^      def line(arg=nil)$/;"	f	class:Chef.Resource.AppendIfNoLine
+line	cookbooks/line/libraries/resource_replace_or_add.rb	/^      def line(arg=nil)$/;"	f	class:Chef.Resource.ReplaceOrAdd
+line	cookbooks/line/libraries/resource_uncomment_lines_matching.rb	/^      def line(arg=nil)$/;"	f	class:Chef.Resource.UncommentLinesMatching
+load_current_resource	cookbooks/chef_handler/providers/default.rb	/^def load_current_resource$/;"	f
+load_current_resource	cookbooks/dmg/providers/package.rb	/^def load_current_resource$/;"	f
+load_current_resource	cookbooks/line/libraries/provider_append_if_no_line.rb	/^      def load_current_resource$/;"	f	class:Chef.Provider.AppendIfNoLine
+load_current_resource	cookbooks/line/libraries/provider_replace_or_add.rb	/^      def load_current_resource$/;"	f	class:Chef.Provider.ReplaceOrAdd
+load_current_resource	cookbooks/line/libraries/provider_uncomment_lines_matching.rb	/^      def load_current_resource$/;"	f	class:Chef.Provider.UncommentLinesMataching
+load_current_resource	cookbooks/ruby_build/providers/ruby.rb	/^def load_current_resource$/;"	f
+load_current_resource	cookbooks/runit/libraries/provider_runit_service.rb	/^        def load_current_resource$/;"	f	class:Chef.Provider.Service.Runit
+load_current_resource	cookbooks/windows/providers/package.rb	/^def load_current_resource$/;"	f
+load_current_resource	cookbooks/windows/providers/printer.rb	/^def load_current_resource$/;"	f
+load_current_resource	cookbooks/windows/providers/printer_port.rb	/^def load_current_resource$/;"	f
+load_current_resource	cookbooks/windows/providers/shortcut.rb	/^def load_current_resource$/;"	f
+load_current_resource	cookbooks/windows/providers/task.rb	/^def load_current_resource$/;"	f
+load_task_hash	cookbooks/windows/providers/task.rb	/^def load_task_hash(task_name)$/;"	f
+load_user_hive	cookbooks/windows/libraries/registry_helper.rb	/^    def load_user_hive(hive,reg_path,user_hive)$/;"	f	class:Windows.RegistryHelper
+locate_default_provider	cookbooks/windows/resources/feature.rb	/^def locate_default_provider$/;"	f
+locate_sysnative_cmd	cookbooks/windows/libraries/helper.rb	/^    def locate_sysnative_cmd(cmd)$/;"	f	class:Windows.Helper
+log	cookbooks/runit/libraries/resource_runit_service.rb	/^      def log(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+log_dir	cookbooks/runit/libraries/provider_runit_service.rb	/^        def log_dir$/;"	f
+log_main_dir	cookbooks/runit/libraries/provider_runit_service.rb	/^        def log_main_dir$/;"	f
+log_run_script	cookbooks/runit/libraries/provider_runit_service.rb	/^        def log_run_script$/;"	f
+log_template_name	cookbooks/runit/libraries/resource_runit_service.rb	/^      def log_template_name(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+lsb_init	cookbooks/runit/libraries/provider_runit_service.rb	/^        def lsb_init$/;"	f
+mac_with_no_homebrew	cookbooks/ruby_build/libraries/ruby_build_recipe_helpers.rb	/^      def mac_with_no_homebrew$/;"	f	class:Chef.RubyBuild.RecipeHelpers
+max_and_min_set?	cookbooks/windows/providers/pagefile.rb	/^def max_and_min_set?(pagefile, min, max)$/;"	f
+options	cookbooks/runit/libraries/resource_runit_service.rb	/^      def options(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+owner	cookbooks/runit/libraries/resource_runit_service.rb	/^      def owner(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+path	cookbooks/line/libraries/resource_append_if_no_line.rb	/^      def path(arg=nil)$/;"	f	class:Chef.Resource.AppendIfNoLine
+path	cookbooks/line/libraries/resource_replace_or_add.rb	/^      def path(arg=nil)$/;"	f	class:Chef.Resource.ReplaceOrAdd
+path	cookbooks/line/libraries/resource_uncomment_lines_matching.rb	/^      def path(arg=nil)$/;"	f	class:Chef.Resource.UncommentLinesMatching
+pattern	cookbooks/line/libraries/resource_replace_or_add.rb	/^      def pattern(arg=nil)$/;"	f	class:Chef.Resource.ReplaceOrAdd
+perform_install	cookbooks/ruby_build/providers/ruby.rb	/^def perform_install$/;"	f
+port_exists?	cookbooks/windows/providers/printer_port.rb	/^def port_exists?(name)$/;"	f
+printer_exists?	cookbooks/windows/providers/printer.rb	/^def printer_exists?(name)$/;"	f
+rbenv_binary_path	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def rbenv_binary_path$/;"	f	class:Chef.Mixin.Rbenv
+rbenv_command	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def rbenv_command(cmd, options = {})$/;"	f	class:Chef.Mixin.Rbenv
+rbenv_global_version?	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def rbenv_global_version?(version)$/;"	f	class:Chef.Mixin.Rbenv
+rbenv_installed?	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def rbenv_installed?$/;"	f	class:Chef.Mixin.Rbenv
+rbenv_prefix_for	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def rbenv_prefix_for(version)$/;"	f	class:Chef.Mixin.Rbenv
+rbenv_root	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def rbenv_root$/;"	f	class:Chef.Mixin.Rbenv
+reason	cookbooks/windows/files/default/handlers/windows_reboot_handler.rb	/^  def reason$/;"	f	class:WindowsRebootHandler
+reboot_pending?	cookbooks/windows/files/default/handlers/windows_reboot_handler.rb	/^  def reboot_pending?$/;"	f	class:WindowsRebootHandler
+reboot_requested?	cookbooks/windows/files/default/handlers/windows_reboot_handler.rb	/^  def reboot_requested?$/;"	f	class:WindowsRebootHandler
+reg_load_key	cookbooks/windows/libraries/windows_privileged.rb	/^    def reg_load_key(name, file)$/;"	f	class:Chef.WindowsPrivileged
+reg_unload_key	cookbooks/windows/libraries/windows_privileged.rb	/^    def reg_unload_key(name)$/;"	f	class:Chef.WindowsPrivileged
+registry_update	cookbooks/windows/providers/registry.rb	/^def registry_update(mode)$/;"	f
+reload_service	cookbooks/runit/libraries/provider_runit_service.rb	/^        def reload_service$/;"	f	class:Chef
+remove_feature	cookbooks/windows/libraries/feature_base.rb	/^        def remove_feature(name)$/;"	f	class:Chef.Provider.WindowsFeature.Base
+remove_feature	cookbooks/windows/providers/feature_dism.rb	/^def remove_feature(name)$/;"	f
+remove_feature	cookbooks/windows/providers/feature_servermanagercmd.rb	/^def remove_feature(name)$/;"	f
+remove_package	cookbooks/rbenv/libraries/provider_rbenv_rubygems.rb	/^        def remove_package(name, version)$/;"	f	class:Chef.Provider.Package.RbenvRubygems
+remove_package	cookbooks/windows/providers/package.rb	/^def remove_package(name, version)$/;"	f
+removing_package?	cookbooks/windows/providers/package.rb	/^def removing_package?$/;"	f
+repo_config	cookbooks/yum/providers/repository.rb	/^def repo_config$/;"	f
+repo_enabled	cookbooks/yum/files/default/tests/minitest/support/helpers.rb	/^    def repo_enabled(repo)$/;"	f	class:Helpers.YumTest
+report	cookbooks/windows/files/default/handlers/windows_reboot_handler.rb	/^  def report$/;"	f	class:WindowsRebootHandler
+resolve_user_to_sid	cookbooks/windows/libraries/registry_helper.rb	/^    def resolve_user_to_sid(username)$/;"	f	class:Windows.RegistryHelper
+restart_on_update	cookbooks/runit/libraries/resource_runit_service.rb	/^      def restart_on_update(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+restart_service	cookbooks/runit/libraries/provider_runit_service.rb	/^        def restart_service$/;"	f	class:Chef
+ruby_build_binary_path	cookbooks/rbenv/libraries/chef_mixin_ruby_build.rb	/^      def ruby_build_binary_path$/;"	f	class:Chef.Mixin.RubyBuild
+ruby_build_installed_verison	cookbooks/rbenv/libraries/chef_mixin_ruby_build.rb	/^      def ruby_build_installed_verison$/;"	f	class:Chef.Mixin.RubyBuild
+ruby_installed?	cookbooks/ruby_build/providers/ruby.rb	/^def ruby_installed?$/;"	f
+ruby_version_installed?	cookbooks/rbenv/libraries/chef_mixin_rbenv.rb	/^      def ruby_version_installed?(version)$/;"	f	class:Chef.Mixin.Rbenv
+run	cookbooks/windows/libraries/windows_privileged.rb	/^    def run(*privileges)$/;"	f	class:Chef.WindowsPrivileged
+run_script	cookbooks/runit/libraries/provider_runit_service.rb	/^        def run_script$/;"	f
+run_template_name	cookbooks/runit/libraries/resource_runit_service.rb	/^      def run_template_name(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+runit_attributes_from_node	cookbooks/runit/libraries/resource_runit_service.rb	/^      def runit_attributes_from_node(run_context)$/;"	f	class:Chef.Resource.RunitService
+runit_send_signal	cookbooks/runit/libraries/provider_runit_service.rb	/^        def runit_send_signal(signal, friendly_name=nil)$/;"	f
+running?	cookbooks/runit/libraries/provider_runit_service.rb	/^        def running?$/;"	f
+script_file	cookbooks/windows/providers/batch.rb	/^def script_file$/;"	f
+servermanagercmd	cookbooks/windows/providers/feature_servermanagercmd.rb	/^def servermanagercmd$/;"	f
+service_dir	cookbooks/runit/libraries/resource_runit_service.rb	/^      def service_dir(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+service_dir_name	cookbooks/runit/libraries/provider_runit_service.rb	/^        def service_dir_name$/;"	f
+service_link	cookbooks/runit/libraries/provider_runit_service.rb	/^        def service_link$/;"	f
+set_automatic_managed	cookbooks/windows/providers/pagefile.rb	/^def set_automatic_managed$/;"	f
+set_control_template_names	cookbooks/runit/libraries/resource_runit_service.rb	/^      def set_control_template_names$/;"	f	class:Chef.Resource.RunitService
+set_custom_size	cookbooks/windows/providers/pagefile.rb	/^def set_custom_size(pagefile, min, max)$/;"	f
+set_owner_and_group	cookbooks/windows/providers/batch.rb	/^def set_owner_and_group$/;"	f
+set_system_managed	cookbooks/windows/providers/pagefile.rb	/^def set_system_managed(pagefile)$/;"	f
+set_value	cookbooks/windows/libraries/registry_helper.rb	/^    def set_value(mode,path,values,type=nil)$/;"	f	class:Windows.RegistryHelper
+sm_serverr2	cookbooks/windows/libraries/version.rb	/^    def sm_serverr2$/;"	f	class:Windows
+start_service	cookbooks/runit/libraries/provider_runit_service.rb	/^        def start_service$/;"	f	class:Chef
+stop_service	cookbooks/runit/libraries/provider_runit_service.rb	/^        def stop_service$/;"	f	class:Chef
+sv_bin	cookbooks/runit/libraries/resource_runit_service.rb	/^      def sv_bin(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+sv_dir	cookbooks/runit/libraries/provider_runit_service.rb	/^        def sv_dir$/;"	f
+sv_dir	cookbooks/runit/libraries/resource_runit_service.rb	/^      def sv_dir(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+sv_dir_name	cookbooks/runit/libraries/provider_runit_service.rb	/^        def sv_dir_name$/;"	f
+sv_templates	cookbooks/runit/libraries/resource_runit_service.rb	/^      def sv_templates(arg=nil)$/;"	f	class:Chef.Resource.RunitService
+template_cookbook	cookbooks/runit/libraries/provider_runit_service.rb	/^        def template_cookbook$/;"	f
+timeout	cookbooks/windows/files/default/handlers/windows_reboot_handler.rb	/^  def timeout$/;"	f	class:WindowsRebootHandler
+unattended_installation_flags	cookbooks/windows/providers/package.rb	/^def unattended_installation_flags$/;"	f
+uninstall_command_template	cookbooks/windows/providers/package.rb	/^def uninstall_command_template$/;"	f
+unlink_script_file	cookbooks/windows/providers/batch.rb	/^def unlink_script_file$/;"	f
+unload_hive	cookbooks/windows/libraries/registry_helper.rb	/^    def unload_hive(path)$/;"	f	class:Windows.RegistryHelper
+unset_automatic_managed	cookbooks/windows/providers/pagefile.rb	/^def unset_automatic_managed$/;"	f
+value_exists?	cookbooks/windows/libraries/registry_helper.rb	/^    def value_exists?(path,value)$/;"	f	class:Windows.RegistryHelper
+value_for_feature_provider	cookbooks/windows/libraries/helper.rb	/^    def value_for_feature_provider(provider_hash)$/;"	f	class:Windows.Helper
+whyrun_supported?	cookbooks/apt/providers/repository.rb	/^def whyrun_supported?$/;"	f
+whyrun_supported?	cookbooks/chef_handler/providers/default.rb	/^def whyrun_supported?$/;"	f
+whyrun_supported?	cookbooks/windows/providers/printer.rb	/^def whyrun_supported?$/;"	f
+whyrun_supported?	cookbooks/windows/providers/printer_port.rb	/^def whyrun_supported?$/;"	f
+whyrun_supported?	cookbooks/yum/providers/key.rb	/^def whyrun_supported?$/;"	f
+whyrun_supported?	cookbooks/yum/providers/repository.rb	/^def whyrun_supported?$/;"	f
+win_friendly_path	cookbooks/windows/libraries/helper.rb	/^    def win_friendly_path(path)$/;"	f	class:Windows.Helper
+win_version	cookbooks/windows/libraries/helper.rb	/^    def win_version$/;"	f	class:Windows.Helper
+wmic	cookbooks/windows/providers/pagefile.rb	/^def wmic$/;"	f
