@@ -14,3 +14,6 @@ include_recipe "erlang"
 include_recipe "golang"
 include_recipe "nodejs"
 include_recipe "nodejs::npm"
+
+execute "apt-get upgrade"
+execute "reboot"
