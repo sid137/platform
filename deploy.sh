@@ -4,6 +4,8 @@
 #     ./deploy server-name
 
 server_name=$1
+rm -rf ~/.berkshelf/cookbooks
+berks install
 
 bundle exec knife digital_ocean droplet create \
   --image 25489              \
