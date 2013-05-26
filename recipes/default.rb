@@ -9,7 +9,8 @@
 
 include_recipe "server-essentials"
 include_recipe "platform::ruby"
-include_recipe "erlang"
-include_recipe "golang"
-include_recipe "nodejs"
-include_recipe "nodejs::npm"
+include_recipe "platform::passenger"
+# include_recipe "erlang"
+# include_recipe "golang"
+# include_recipe "nodejs"
+# include_recipe "nodejs::npm"
