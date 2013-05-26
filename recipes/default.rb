@@ -15,4 +15,4 @@ include_recipe "golang"
 include_recipe "nodejs"
 include_recipe "nodejs::npm"
 
-execute "apt-get upgrade"
+execute "apt-get upgrade -f -y"
