@@ -3,4 +3,4 @@
 #     ./update ip-address nodes/default.json
 
 address=$1
-bundle exec knife solo cook root@$address 
+bundle exec knife solo cook root@$address  nodes/default.json
