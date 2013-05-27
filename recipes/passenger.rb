@@ -1,18 +1,10 @@
 rbenv_gem "passenger"
 
-bash "create swapfile for nginx install" do
-  user "root"
-  code <<-EOH
-  swapoff -a
-  dd if=/dev/zero of=/swapfile bs=1024 count=1024k
-  chown root:root /swapfile
-  chmod 0600 /swapfile
-  mkswap /swapfile
-  swapon /swapfile
-  EOH
-  not_if do
-    File.exists?("/swapfile")
-  end
+# Add user to www-data group
+group "www-data" do
+  action :modify
+  members "sid137"
+  append true
 end
 
 cookbook_file "/etc/init.d/nginx" do
@@ -21,7 +13,6 @@ cookbook_file "/etc/init.d/nginx" do
   group "root"
   mode 0755
 end
-
 execute "sudo /usr/sbin/update-rc.d -f nginx defaults"
 
 
@@ -37,6 +28,3 @@ bash "passenger_module" do
     File.exists?("/opt/nginx")
   end
 end
-
-# For reboots
-# execute "echo '/swapfile1 swap swap defaults 0 0' >> /etc/fstab"
