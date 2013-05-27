@@ -15,4 +15,4 @@ bundle exec knife digital_ocean droplet create \
   --bootstrap                \
   --solo                     \
   --server-name $server_name \
-  --run-list "recipe[platform]"
+  --run-list "recipe[user], recipe[platform]"
