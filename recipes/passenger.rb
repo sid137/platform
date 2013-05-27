@@ -7,6 +7,13 @@ group "www-data" do
   append true
 end
 
+# Create /var/www
+directory "/var/www" do
+  owner "www-data"
+  group "www-data"
+  mode "0775"
+end
+
 cookbook_file "/etc/init.d/nginx" do
   source 'nginx.init'
   owner "root"

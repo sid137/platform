@@ -10,7 +10,7 @@ berks install
 bundle exec knife digital_ocean droplet create \
   --image 25489              \
   --size 66                  \
-  --location 1               \
+  --location 2               \ # 1. NY   2. Amsterdam
   --ssh-keys 7798            \
   --bootstrap                \
   --solo                     \
