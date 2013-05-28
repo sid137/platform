@@ -8,6 +8,7 @@
 
 
 include_recipe "server-essentials"
+include_recipe "platform::postgresql"
 include_recipe "platform::ruby"
 include_recipe "platform::passenger"
 include_recipe "erlang"

@@ -7,11 +7,13 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.1.0"
 
 depends 'apt'
-depends 'line'
-depends 'server-essentials'
-depends 'minitest-handler'
-depends 'golang'
-depends 'nodejs'
+depends 'database'
 depends 'erlang'
+depends 'golang'
+depends 'line'
+depends 'minitest-handler'
+depends 'nodejs'
+depends 'postgresql'
 depends 'rbenv'
 depends 'ruby_build'
+depends 'server-essentials'

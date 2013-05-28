@@ -2,6 +2,7 @@
 # To launch and configure a server, run:
 #     ./update ip-address nodes/default.json
 
-./clean
+# ./clean
 address=$1
-bundle exec knife solo cook root@$address  nodes/default.json
+user=sid137
+bundle exec knife solo cook $user@$address  nodes/default.json
